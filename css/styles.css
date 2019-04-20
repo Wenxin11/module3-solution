@@ -1,0 +1,88 @@
+/*HEADER*/
+#header-nav {
+  background-color:gray;
+  border: 1.5px solid black;
+}
+.navbar-brand {
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+.navbar-brand h1 {
+  text-shadow:1px 1px 1px;
+  margin-top:0;
+  margin-bottom:0;
+  line-height:.75;
+  color:black;
+}
+.navbar-header button.navbar-toggle{
+  /*background-color:*/
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+.navbar-header .icon-bar {
+  border: 2px solid black;
+}
+/*.navbar-header button.navbar-toggle:hover {
+  border: 1px solid white;
+}*/
+/*.navbar-header .icon-bar:hover {
+  border: 2px solid white;
+}*/
+
+#nav-list {
+  margin-top:5px;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+#nav-list a {
+  text-align:center;
+  color: black;
+  border:1px solid black;
+}
+
+#nav-list a:hover {
+  color:gray;
+}
+
+#content {
+  width:100%;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+#main-content {
+  background-color: gray;
+  height:1000px;
+  margin-bottom: 15px;
+  color:black;
+}
+
+#main-content h3 {
+  text-align: center;
+  color:black;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    margin: 0 20px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container {
+    padding: 0 50px;
+  }
+}
